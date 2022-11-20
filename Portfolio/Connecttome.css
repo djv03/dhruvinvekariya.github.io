@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.connectpage{
+    /* background-color: gainsboro; */
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100vw;
+    margin-top: 4rem;
+
+}
+h2{
+    margin-left: 34rem;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.form{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
+    
+}
+.form input{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 25vw;
+    margin: 1rem;
+    padding: 0.6rem;
+}
+#message{
+    border: 1px solid black;
+    border-radius: 13px;
+    padding: 13px;
+
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+
+}
+#btnsubmit{
+    margin-top: 23px;
+    margin-left: 44rem;
+    padding: 13px;
+    background-color:rgb(88, 123, 227);
+    border: 3px solid black;
+    border-radius: 23px;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;    
+}
+
+#btnsubmit:hover{
+    background-color: white;
+    color: royalblue;
+    /* font-size: 1.2rem; */
+}
